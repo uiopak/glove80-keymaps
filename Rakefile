@@ -41,6 +41,7 @@ rule ".json" => ".json.erb" do |t|
   template = ERB.new(File.read(t.source), trim_mode: "-")
 
   output = template.result
+                   .gsub('"""','"\""')
   File.write(t.name, output)
 
   minified_output = output
