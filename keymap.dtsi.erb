@@ -1043,6 +1043,7 @@ macros {
       emit_short_cut_macro = lambda do |index|
         if(index>=shortcuts.length)
           print("not enough shortcuts for all unicode chars #{shortcuts.length}\n")
+        else
           shortcut=shortcuts[index]
           "<&kp #{shortcut[:shift]}(#{shortcut[:control]}(#{shortcut[:alt]}(#{shortcut[:group]}(#{shortcut[:f]}))))>"
         end

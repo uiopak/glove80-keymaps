@@ -3362,6 +3362,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp B &kp N0 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(LG(F1))))>
         #endif
       #endif
     )
@@ -3374,6 +3375,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp A &kp N7 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(LG(F2))))>
         #endif
       #endif
     )
@@ -3386,6 +3388,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp B &kp N6 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(LG(F3))))>
         #endif
       #endif
     )
@@ -3398,6 +3401,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp B &kp A &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(LG(F4))))>
         #endif
       #endif
     )
@@ -3410,6 +3414,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp A &kp A &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(LG(F5))))>
         #endif
       #endif
     )
@@ -3422,6 +3427,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp A &kp N1 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(LG(F6))))>
         #endif
       #endif
     )
@@ -3434,6 +3440,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp B &kp F &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(LG(F7))))>
         #endif
       #endif
     )
@@ -3446,6 +3453,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N2 &kp N0 &kp B &kp F &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(LG(F8))))>
         #endif
       #endif
     )
@@ -3458,6 +3466,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp A &kp N2 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(LG(F9))))>
         #endif
       #endif
     )
@@ -3470,6 +3479,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp A &kp N4 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(LG(F10))))>
         #endif
       #endif
     )
@@ -3486,6 +3496,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp E &kp N7 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(LG(F11))))>
         #endif
       #endif
     )
@@ -3498,6 +3509,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp C &kp N7 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(LG(F12))))>
         #endif
       #endif
     )
@@ -3516,6 +3528,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp E &kp D &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(LG(F13))))>
         #endif
       #endif
     )
@@ -3528,6 +3541,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp C &kp D &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(LG(F14))))>
         #endif
       #endif
     )
@@ -3546,6 +3560,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp E &kp F &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(LG(F15))))>
         #endif
       #endif
     )
@@ -3558,6 +3573,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp C &kp F &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(LG(F16))))>
         #endif
       #endif
     )
@@ -3576,6 +3592,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp E &kp E &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(LG(F17))))>
         #endif
       #endif
     )
@@ -3588,6 +3605,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp C &kp E &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(LG(F18))))>
         #endif
       #endif
     )
@@ -3606,6 +3624,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp E &kp C &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(LG(F19))))>
         #endif
       #endif
     )
@@ -3618,6 +3637,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp C &kp C &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(LG(F20))))>
         #endif
       #endif
     )
@@ -3636,6 +3656,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp E &kp N9 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(LG(F21))))>
         #endif
       #endif
     )
@@ -3648,6 +3669,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp C &kp N9 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(LG(F22))))>
         #endif
       #endif
     )
@@ -3666,6 +3688,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp E &kp B &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(LG(F23))))>
         #endif
       #endif
     )
@@ -3678,6 +3701,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp C &kp B &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(LG(F24))))>
         #endif
       #endif
     )
@@ -3696,6 +3720,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp E &kp A &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(RG(F1))))>
         #endif
       #endif
     )
@@ -3708,6 +3733,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp C &kp A &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(RG(F2))))>
         #endif
       #endif
     )
@@ -3726,6 +3752,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp E &kp N8 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(RG(F3))))>
         #endif
       #endif
     )
@@ -3738,6 +3765,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp C &kp N8 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(RG(F4))))>
         #endif
       #endif
     )
@@ -3756,6 +3784,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp E &kp N6 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(RG(F5))))>
         #endif
       #endif
     )
@@ -3768,6 +3797,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp C &kp N6 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(RG(F6))))>
         #endif
       #endif
     )
@@ -3786,6 +3816,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp E &kp N1 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(RG(F7))))>
         #endif
       #endif
     )
@@ -3798,6 +3829,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp C &kp N1 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(RG(F8))))>
         #endif
       #endif
     )
@@ -3816,6 +3848,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp E &kp N4 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(RG(F9))))>
         #endif
       #endif
     )
@@ -3828,6 +3861,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp C &kp N4 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(RG(F10))))>
         #endif
       #endif
     )
@@ -3846,6 +3880,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp E &kp N2 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(RG(F11))))>
         #endif
       #endif
     )
@@ -3858,6 +3893,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp C &kp N2 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(RG(F12))))>
         #endif
       #endif
     )
@@ -3876,6 +3912,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp E &kp N0 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(RG(F13))))>
         #endif
       #endif
     )
@@ -3888,6 +3925,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp C &kp N0 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(RG(F14))))>
         #endif
       #endif
     )
@@ -3906,6 +3944,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp E &kp N3 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(RG(F15))))>
         #endif
       #endif
     )
@@ -3918,6 +3957,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp C &kp N3 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(RG(F16))))>
         #endif
       #endif
     )
@@ -3936,6 +3976,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp E &kp N5 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(RG(F17))))>
         #endif
       #endif
     )
@@ -3948,6 +3989,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp C &kp N5 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(RG(F18))))>
         #endif
       #endif
     )
@@ -3966,6 +4008,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp F &kp D &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(RG(F19))))>
         #endif
       #endif
     )
@@ -3978,6 +4021,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp D &kp D &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(RG(F20))))>
         #endif
       #endif
     )
@@ -3996,6 +4040,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp F &kp F &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(RG(F21))))>
         #endif
       #endif
     )
@@ -4008,6 +4053,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp N7 &kp N8 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(RG(F22))))>
         #endif
       #endif
     )
@@ -4026,6 +4072,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp F &kp N3 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(RG(F23))))>
         #endif
       #endif
     )
@@ -4038,6 +4085,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp D &kp N3 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(LA(RG(F24))))>
         #endif
       #endif
     )
@@ -4056,6 +4104,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp F &kp N6 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(LG(F1))))>
         #endif
       #endif
     )
@@ -4068,6 +4117,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp D &kp N6 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(LG(F2))))>
         #endif
       #endif
     )
@@ -4086,6 +4136,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp F &kp N4 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(LG(F3))))>
         #endif
       #endif
     )
@@ -4098,6 +4149,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp D &kp N4 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(LG(F4))))>
         #endif
       #endif
     )
@@ -4116,6 +4168,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp F &kp N2 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(LG(F5))))>
         #endif
       #endif
     )
@@ -4128,6 +4181,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp D &kp N2 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(LG(F6))))>
         #endif
       #endif
     )
@@ -4146,6 +4200,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp F &kp N5 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(LG(F7))))>
         #endif
       #endif
     )
@@ -4158,6 +4213,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp D &kp N5 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(LG(F8))))>
         #endif
       #endif
     )
@@ -4176,6 +4232,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp F &kp N8 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(LG(F9))))>
         #endif
       #endif
     )
@@ -4188,6 +4245,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp D &kp N8 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(LG(F10))))>
         #endif
       #endif
     )
@@ -4206,6 +4264,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp F &kp A &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(LG(F11))))>
         #endif
       #endif
     )
@@ -4218,6 +4277,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp D &kp A &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(LG(F12))))>
         #endif
       #endif
     )
@@ -4236,6 +4296,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp F &kp C &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(LG(F13))))>
         #endif
       #endif
     )
@@ -4248,6 +4309,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp D &kp C &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(LG(F14))))>
         #endif
       #endif
     )
@@ -4266,6 +4328,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp F &kp B &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(LG(F15))))>
         #endif
       #endif
     )
@@ -4278,6 +4341,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp D &kp B &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(LG(F16))))>
         #endif
       #endif
     )
@@ -4296,6 +4360,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp F &kp N9 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(LG(F17))))>
         #endif
       #endif
     )
@@ -4308,6 +4373,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp D &kp N9 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(LG(F18))))>
         #endif
       #endif
     )
@@ -4326,6 +4392,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp F &kp N1 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(LG(F19))))>
         #endif
       #endif
     )
@@ -4338,6 +4405,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp D &kp N1 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(LG(F20))))>
         #endif
       #endif
     )
@@ -4356,6 +4424,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N2 &kp N7 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(LG(F21))))>
         #endif
       #endif
     )
@@ -4368,6 +4437,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N2 &kp N2 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(LG(F22))))>
         #endif
       #endif
     )
@@ -4386,6 +4456,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N6 &kp N0 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(LG(F23))))>
         #endif
       #endif
     )
@@ -4398,6 +4469,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp B &kp N4 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(LG(F24))))>
         #endif
       #endif
     )
@@ -4416,6 +4488,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp A &kp B &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(RG(F1))))>
         #endif
       #endif
     )
@@ -4428,6 +4501,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp B &kp B &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(RG(F2))))>
         #endif
       #endif
     )
@@ -4446,6 +4520,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N2 &kp N0 &kp N1 &kp N8 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(RG(F3))))>
         #endif
       #endif
     )
@@ -4458,6 +4533,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N2 &kp N0 &kp N1 &kp N9 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(RG(F4))))>
         #endif
       #endif
     )
@@ -4476,6 +4552,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N2 &kp N0 &kp N1 &kp C &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(RG(F5))))>
         #endif
       #endif
     )
@@ -4488,6 +4565,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N2 &kp N0 &kp N1 &kp D &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(RG(F6))))>
         #endif
       #endif
     )
@@ -4506,6 +4584,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N2 &kp N4 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(RG(F7))))>
         #endif
       #endif
     )
@@ -4524,6 +4603,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp A &kp N5 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(RG(F8))))>
         #endif
       #endif
     )
@@ -4536,6 +4616,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N2 &kp N0 &kp A &kp C &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(RG(F9))))>
         #endif
       #endif
     )
@@ -4548,6 +4629,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N2 &kp N0 &kp A &kp N9 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(RG(F10))))>
         #endif
       #endif
     )
@@ -4560,6 +4642,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp A &kp N3 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(RG(F11))))>
         #endif
       #endif
     )
@@ -4811,6 +4894,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N2 &kp N0 &kp N0 &kp D &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(RG(F12))))>
         #endif
       #endif
     )
@@ -4823,6 +4907,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N2 &kp N6 &kp N4 &kp N2 &kp ENTER>, <&macro_wait_time UNICODE_SEQ_DELAY>, <&kp RA(U) &kp F &kp E &kp N0 &kp F &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(RG(F13))))>
         #endif
       #endif
     )
@@ -4835,6 +4920,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N2 &kp N6 &kp N4 &kp N0 &kp ENTER>, <&macro_wait_time UNICODE_SEQ_DELAY>, <&kp RA(U) &kp F &kp E &kp N0 &kp F &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(RG(F14))))>
         #endif
       #endif
     )
@@ -4847,6 +4933,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N2 &kp N7 &kp A &kp N1 &kp ENTER>, <&macro_wait_time UNICODE_SEQ_DELAY>, <&kp RA(U) &kp F &kp E &kp N0 &kp F &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(RG(F15))))>
         #endif
       #endif
     )
@@ -4859,6 +4946,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N2 &kp B &kp N0 &kp N5 &kp ENTER>, <&macro_wait_time UNICODE_SEQ_DELAY>, <&kp RA(U) &kp F &kp E &kp N0 &kp F &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(RG(F16))))>
         #endif
       #endif
     )
@@ -4871,6 +4959,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N3 &kp F &kp B &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(RG(F17))))>
         #endif
       #endif
     )
@@ -4883,6 +4972,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N3 &kp F &kp C &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(RG(F18))))>
         #endif
       #endif
     )
@@ -4895,6 +4985,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N3 &kp F &kp D &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(RG(F19))))>
         #endif
       #endif
     )
@@ -4907,6 +4998,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N3 &kp F &kp E &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(RG(F20))))>
         #endif
       #endif
     )
@@ -4919,6 +5011,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N3 &kp F &kp F &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(RG(F21))))>
         #endif
       #endif
     )
@@ -4931,6 +5024,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N3 &kp N7 &kp C &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(RG(F22))))>
         #endif
       #endif
     )
@@ -4943,6 +5037,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N4 &kp N7 &kp N6 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(RG(F23))))>
         #endif
       #endif
     )
@@ -4955,6 +5050,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N4 &kp N6 &kp N6 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(RC(LA(RG(F24))))>
         #endif
       #endif
     )
@@ -4967,6 +5063,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N4 &kp N6 &kp N7 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(LG(F1))))>
         #endif
       #endif
     )
@@ -4979,6 +5076,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N4 &kp N6 &kp N8 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(LG(F2))))>
         #endif
       #endif
     )
@@ -4991,6 +5089,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N4 &kp N6 &kp N9 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(LG(F3))))>
         #endif
       #endif
     )
@@ -5003,6 +5102,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N4 &kp N7 &kp N4 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(LG(F4))))>
         #endif
       #endif
     )
@@ -5015,6 +5115,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N4 &kp N7 &kp N5 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(LG(F5))))>
         #endif
       #endif
     )
@@ -5027,6 +5128,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N9 &kp B &kp N3 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(LG(F6))))>
         #endif
       #endif
     )
@@ -5039,6 +5141,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N9 &kp B &kp N1 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(LG(F7))))>
         #endif
       #endif
     )
@@ -5051,6 +5154,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N9 &kp B &kp N0 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(LG(F8))))>
         #endif
       #endif
     )
@@ -5063,6 +5167,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N9 &kp B &kp N2 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(LG(F9))))>
         #endif
       #endif
     )
@@ -5075,6 +5180,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N3 &kp N1 &kp N1 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(LG(F10))))>
         #endif
       #endif
     )
@@ -5087,6 +5193,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N3 &kp N1 &kp N2 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(LG(F11))))>
         #endif
       #endif
     )
@@ -5099,6 +5206,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N3 &kp N1 &kp N3 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(LG(F12))))>
         #endif
       #endif
     )
@@ -5111,6 +5219,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N3 &kp N1 &kp N4 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(LG(F13))))>
         #endif
       #endif
     )
@@ -5123,6 +5232,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N3 &kp N1 &kp N5 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(LG(F14))))>
         #endif
       #endif
     )
@@ -5135,6 +5245,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N3 &kp N1 &kp N6 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(LG(F15))))>
         #endif
       #endif
     )
@@ -5147,6 +5258,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N3 &kp N1 &kp N7 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(LG(F16))))>
         #endif
       #endif
     )
@@ -5159,6 +5271,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N3 &kp N1 &kp N8 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(LG(F17))))>
         #endif
       #endif
     )
@@ -5171,6 +5284,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N3 &kp N8 &kp N9 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(LG(F18))))>
         #endif
       #endif
     )
@@ -5183,6 +5297,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N5 &kp N2 &kp N5 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(LG(F19))))>
         #endif
       #endif
     )
@@ -5195,6 +5310,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp F &kp E &kp N0 &kp F &kp ENTER>, <&macro_wait_time UNICODE_SEQ_DELAY>, <&kp RA(U) &kp N2 &kp N7 &kp N6 &kp N4 &kp ENTER>, <&kp RA(U) &kp F &kp E &kp N0 &kp F &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(LG(F20))))>
         #endif
       #endif
     )
@@ -5207,6 +5323,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N4 &kp A &kp A &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(LG(F21))))>
         #endif
       #endif
     )
@@ -5219,6 +5336,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N9 &kp D &kp N7 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(LG(F22))))>
         #endif
       #endif
     )
@@ -5231,6 +5349,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N6 &kp N8 &kp N0 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(LG(F23))))>
         #endif
       #endif
     )
@@ -5243,6 +5362,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N6 &kp N0 &kp E &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(LG(F24))))>
         #endif
       #endif
     )
@@ -5255,6 +5375,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N9 &kp N2 &kp N9 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(RG(F1))))>
         #endif
       #endif
     )
@@ -5267,6 +5388,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N6 &kp N0 &kp N2 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(RG(F2))))>
         #endif
       #endif
     )
@@ -5279,6 +5401,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N6 &kp N3 &kp N0 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(RG(F3))))>
         #endif
       #endif
     )
@@ -5291,6 +5414,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N6 &kp N3 &kp N1 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(RG(F4))))>
         #endif
       #endif
     )
@@ -5303,6 +5427,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N9 &kp N2 &kp F &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(RG(F5))))>
         #endif
       #endif
     )
@@ -5315,6 +5440,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp A &kp F &kp N0 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(RG(F6))))>
         #endif
       #endif
     )
@@ -5327,6 +5453,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N4 &kp N4 &kp C &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(RG(F7))))>
         #endif
       #endif
     )
@@ -5339,6 +5466,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N6 &kp N4 &kp F &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(RG(F8))))>
         #endif
       #endif
     )
@@ -5351,6 +5479,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N6 &kp N0 &kp N5 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(RG(F9))))>
         #endif
       #endif
     )
@@ -5363,6 +5492,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N6 &kp N1 &kp E &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(RG(F10))))>
         #endif
       #endif
     )
@@ -5375,6 +5505,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N9 &kp N1 &kp N4 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(RG(F11))))>
         #endif
       #endif
     )
@@ -5387,6 +5518,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N4 &kp N8 &kp N1 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(RG(F12))))>
         #endif
       #endif
     )
@@ -5399,6 +5531,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N6 &kp N4 &kp N6 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(RG(F13))))>
         #endif
       #endif
     )
@@ -5411,6 +5544,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N6 &kp N4 &kp N7 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(RG(F14))))>
         #endif
       #endif
     )
@@ -5423,6 +5557,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N6 &kp N4 &kp B &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(RG(F15))))>
         #endif
       #endif
     )
@@ -5435,6 +5570,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N6 &kp N4 &kp N5 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(RG(F16))))>
         #endif
       #endif
     )
@@ -5447,6 +5583,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N9 &kp N3 &kp N7 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(RG(F17))))>
         #endif
       #endif
     )
@@ -5459,6 +5596,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N2 &kp N7 &kp N0 &kp N5 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(RG(F18))))>
         #endif
       #endif
     )
@@ -5471,6 +5609,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N4 &kp A &kp F &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(RG(F19))))>
         #endif
       #endif
     )
@@ -5483,6 +5622,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N2 &kp N6 &kp A &kp N0 &kp ENTER>, <&macro_wait_time UNICODE_SEQ_DELAY>, <&kp RA(U) &kp F &kp E &kp N0 &kp F &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(RG(F20))))>
         #endif
       #endif
     )
@@ -5495,6 +5635,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N2 &kp N7 &kp N4 &kp C &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(RG(F21))))>
         #endif
       #endif
     )
@@ -5507,6 +5648,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N2 &kp N7 &kp N5 &kp N3 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(RG(F22))))>
         #endif
       #endif
     )
@@ -5519,6 +5661,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N9 &kp D &kp N1 &kp ENTER>, <&macro_wait_time UNICODE_SEQ_DELAY>, <&kp RA(U) &kp N2 &kp N0 &kp N0 &kp D &kp ENTER>, <&kp RA(U) &kp N1 &kp F &kp N6 &kp N8 &kp N0 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(RG(F23))))>
         #endif
       #endif
     )
@@ -5531,6 +5674,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N9 &kp N1 &kp N3 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp LS(LC(RA(RG(F24))))>
         #endif
       #endif
     )
@@ -5543,6 +5687,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N2 &kp N7 &kp N2 &kp N8 &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp RS(LC(LA(LG(F1))))>
         #endif
       #endif
     )
@@ -5555,6 +5700,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N6 &kp N4 &kp C &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp RS(LC(LA(LG(F2))))>
         #endif
       #endif
     )
@@ -5567,6 +5713,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N2 &kp N6 &kp N1 &kp D &kp ENTER>, <&macro_wait_time UNICODE_SEQ_DELAY>, <&kp RA(U) &kp F &kp E &kp N0 &kp F &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp RS(LC(LA(LG(F3))))>
         #endif
       #endif
     )
@@ -5579,6 +5726,7 @@ macros {
         #if POWER_TOYS_KEYBOARD_MANAGER == 0
           <&kp RA(U) &kp N1 &kp F &kp N4 &kp N4 &kp D &kp ENTER>
         #elif POWER_TOYS_KEYBOARD_MANAGER == 1
+          <&kp RS(LC(LA(LG(F4))))>
         #endif
       #endif
     )
