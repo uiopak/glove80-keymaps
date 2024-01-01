@@ -1,0 +1,62 @@
+<%
+  generate_short_cuts = lambda do
+    shift_loop = %w[160 161] # LS RS
+    control_alt_loop = [
+      { control: "162", alt: "164" }, # LC LA
+      { control: "163", alt: "164" }, # RC LA
+      { control: "162", alt: "165" }  # LC RA
+    ]
+    group_loop = %w[91 92] # LG RG
+    f_loop = %w[112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135] # F1-F24
+    shortcuts_tmp = []
+    shift_loop.each {|shift|
+      control_alt_loop.each {|controlAlt|
+       group_loop.each {|group|
+        f_loop.each {|f|
+          shortcuts_tmp << {shift:shift,control:controlAlt[:control],alt:controlAlt[:alt],group:group,f:f}
+    }}}}
+    shortcuts_tmp
+  end
+  shortcuts = generate_short_cuts.()
+
+  require 'yaml'
+  emoji = YAML.load_file("emoji.yaml")
+  world = YAML.load_file("world.yaml")
+  world_codepoints = world["codepoints"]
+  world_characters = world["characters"]
+  emoji_codepoints = emoji["codepoints"]
+  sequence=[]
+  EMITTED_UNICODES = {}
+  add_shortcut = lambda do |character|
+    if EMITTED_UNICODES[character]
+
+    else
+      shortcut = shortcuts[EMITTED_UNICODES.length]
+      sequence<<"{\"originalKeys\": \"#{shortcut[:shift]};#{shortcut[:control]};#{shortcut[:alt]};#{shortcut[:group]};#{shortcut[:f]}\",\"unicodeText\": \"#{character}\"}"
+      EMITTED_UNICODES[character] = character
+    end
+  end
+
+  world_codepoints.each do |name, character|
+    add_shortcut.(character)
+  end
+
+  world_characters.each do |name, transforms|
+    transforms.each do | modifier, shiftings_or_character|
+      if shiftings_or_character.respond_to? :map
+        shiftings_or_character.map do |shift, character|
+          add_shortcut.(character)
+        end
+      else
+        add_shortcut.(shiftings_or_character)
+      end
+    end
+  end
+
+  emoji_codepoints.each  do |name, character|
+    add_shortcut.(character)
+  end
+-%>
+// add to %LOCALAPPDATA%\Microsoft\PowerToys\Keyboard Manager\default.json "remapShortcutsToText" "global" array
+// make backup, if file is not valid PowerToys will remove all Keyboard Manager configuration
+<%=sequence.join(", ")%>

@@ -50,6 +50,9 @@
 #define _SLEEP      C_SLEEP
 #if OPERATING_SYSTEM == <%= OPERATING_SYSTEMS[:windows] %>
     #define _LOCK   LG(L)
+    #ifndef POWER_TOYS_KEYBOARD_MANAGER
+        #define POWER_TOYS_KEYBOARD_MANAGER 0
+    #endif
 #elif OPERATING_SYSTEM == <%= OPERATING_SYSTEMS[:macos] %>
     #define _LOCK   _C(LC(Q))
 #elif OPERATING_SYSTEM == <%= OPERATING_SYSTEMS[:linux] %>
@@ -1017,8 +1020,35 @@ macros {
     };
     <%
       end
+      generate_short_cuts = lambda do
+        shift_loop = %w[LS RS]
+        control_alt_loop = [
+          { control: "LC", alt: "LA" },
+          { control: "RC", alt: "LA" },
+          { control: "LC", alt: "RA" }
+        ]
+        group_loop = %w[LG RG]
+        f_loop = %w[F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 F13 F14 F15 F16 F17 F18 F19 F20 F21 F22 F23 F24]
+        shortcuts_tmp = []
+        shift_loop.each {|shift|
+          control_alt_loop.each {|controlAlt|
+            group_loop.each {|group|
+              f_loop.each {|f|
+                shortcuts_tmp<<{shift:shift,control:controlAlt[:control],alt:controlAlt[:alt],group:group,f:f}
+              }}}}
+        shortcuts_tmp
+      end
+      shortcuts = generate_short_cuts.()
 
-      emit_unicode_macro = lambda do |id, character|
+      emit_short_cut_macro = lambda do |index|
+        if(index>=shortcuts.length)
+          print("not enough shortcuts for all unicode chars #{shortcuts.length}\n")
+          shortcut=shortcuts[index]
+          "<&kp #{shortcut[:shift]}(#{shortcut[:control]}(#{shortcut[:alt]}(#{shortcut[:group]}(#{shortcut[:f]}))))>"
+        end
+      end
+
+      emit_unicode_or_use_short_cut_macro = lambda do |id, character, index|
     %>
     UNICODE(<%= id %>, /* <%= character %> */
     <%
@@ -1033,7 +1063,11 @@ macros {
           end
     %>
       #<%= "el" if os_number > 1 %>if UNICODE_TARGET_OS == <%= os_number %>
-        <%= sequence.join(", ") %>
+        <%= os_number == OPERATING_SYSTEMS[:windows]?"#if POWER_TOYS_KEYBOARD_MANAGER == 0" :sequence.join(", ")  %>
+          <%= sequence.join(", ") if os_number == OPERATING_SYSTEMS[:windows] %>
+        <%= "#elif POWER_TOYS_KEYBOARD_MANAGER == 1" if os_number == OPERATING_SYSTEMS[:windows] %>
+          <%= emit_short_cut_macro.(index) if os_number == OPERATING_SYSTEMS[:windows]%>
+        <%= "#endif" if os_number == OPERATING_SYSTEMS[:windows] %>
       <%= "#endif" if os_number == OPERATING_SYSTEMS.length %>
     <%
         end
@@ -1043,11 +1077,12 @@ macros {
       end
 
       EMITTED_UNICODE_MACROS = {}
-      emit_unicode_macro_once = lambda do |id, character|
+      emit_unicode_or_use_short_cut_macro_once = lambda do |id, character|
         if emitted_id = EMITTED_UNICODE_MACROS[character]
           emitted_id
         else
-          emit_unicode_macro.(id, character)
+          index = EMITTED_UNICODE_MACROS.length
+          emit_unicode_or_use_short_cut_macro.(id, character, index)
           EMITTED_UNICODE_MACROS[character] = id
         end
       end
@@ -1096,7 +1131,7 @@ macros {
       emit_unicode_codepoints = lambda do |codepoints, id_prefix|
         codepoints.each do |name, codepoint|
           id = "#{id_prefix}_#{name}"
-          emit_unicode_macro_once.(id, codepoint)
+          emit_unicode_or_use_short_cut_macro_once.(id, codepoint)
         end
       end
 
@@ -1106,11 +1141,11 @@ macros {
             accent_id = letter_id_prefix(id_prefix, letter) + modifier
             if shiftings_or_character.respond_to? :map
               shift_ids = shiftings_or_character.map do |shift, character|
-                emit_unicode_macro_once.("#{accent_id}_#{shift}", character)
+                emit_unicode_or_use_short_cut_macro_once.("#{accent_id}_#{shift}", character)
               end
               emit_zmk_mod_morph.(accent_id, *shift_ids, "MOD_LSFT")
             else
-              emit_unicode_macro_once.(accent_id, shiftings_or_character)
+              emit_unicode_or_use_short_cut_macro_once.(accent_id, shiftings_or_character)
             end
           end
         end

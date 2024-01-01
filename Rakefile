@@ -3,6 +3,11 @@ task :default => :dtsi
 dtsi_files = FileList["*.dtsi.erb"].pathmap("%X").each do |f|
   file f => FileList["#{f}.erb", "*.{yaml,json,zmk}", __FILE__]
 end
+
+json_files = FileList["*.json.erb"].pathmap("%X").each do |f|
+  file f => FileList["#{f}.erb", "*.yaml", __FILE__]
+end
+
 task :dtsi => dtsi_files
 
 require 'erb'
@@ -26,5 +31,23 @@ rule ".dtsi" => ".dtsi.erb" do |t|
     .gsub(/^\s+/, "") # remove indentation
     .squeeze("\n") # remove blank lines
     .squeeze(" ") # remove extra spaces
+  File.write(t.name + ".min", minified_output)
+end
+
+task :json => json_files
+
+require 'erb'
+rule ".json" => ".json.erb" do |t|
+  template = ERB.new(File.read(t.source), trim_mode: "-")
+
+  output = template.result
+  File.write(t.name, output)
+
+  minified_output = output
+                      .gsub(%r{^\s*//(?! ==== ).*}, "") # remove comment lines
+                      .gsub(%r{(?<=[^\*])//.*}, "") # remove trailing comments
+                      .gsub(/^\s+/, "") # remove indentation
+                      .squeeze("\n") # remove blank lines
+                      .squeeze(" ") # remove extra spaces
   File.write(t.name + ".min", minified_output)
 end
